@@ -5,7 +5,7 @@ import base64
 # Import the official SDKs
 from google import genai
 from google.genai import types
-client = genai.Client(api_key="AQ.Ab8RN6JMnQCZRlQHhPnOu4_GLZdnrVjpIO96_taxHfYSPLHeNA")
+client = genai.Client(api_key="")
 # from openai import OpenAI
 # from anthropic import Anthropic
 

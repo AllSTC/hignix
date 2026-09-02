@@ -11,7 +11,7 @@ class Solution:
           max_len = max(max_len,right-left+1)
     return max_len
     #subproduct less than k
-class Solution:
+
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
         if k<=1:
             return 0
@@ -24,7 +24,8 @@ class Solution:
             res+=r-l+1
         return res
       #whose sum is greater than or equal to target
-      class Solution:
+
+    
     def minSubArrayLen(self, k: int, nums: List[int]) -> int:
         if sum(nums)<k:
             return 0
